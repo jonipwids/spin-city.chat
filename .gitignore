@@ -1,0 +1,273 @@
+# === ENVIRONMENT FILES ===
+**/.env
+**/.env.local
+**/.env.*.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+**/.env.backend
+**/.env.frontend
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.backend
+.env.frontend
+
+# === GO RELATED ===
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Code coverage profiles and other test artifacts
+*.out
+coverage.*
+*.coverprofile
+profile.cov
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Built binaries
+bin/
+dist/
+
+# === NODE.JS / NEXT.JS RELATED ===
+# Dependencies
+**/node_modules/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Next.js
+**/.next/
+**/out/
+**/build/
+.next/
+out/
+build/
+
+# Vercel
+.vercel
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+.nyc_output
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Parcel-bundler cache
+.cache
+.parcel-cache
+
+# Nuxt.js build output
+.nuxt
+
+# Vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# TypeScript build info
+*.tsbuildinfo
+
+# === PHP RELATED ===
+# Composer
+vendor/
+composer.lock
+
+# PHP cache and sessions
+*.php~
+*.cache
+sessions/
+
+# === DATABASE RELATED ===
+# SQLite
+*.sqlite
+*.sqlite3
+*.db
+
+# Database dumps
+*.sql
+*.dump
+
+# Prisma
+prisma/migrations/
+/src/generated/prisma
+
+# === LOGS ===
+*.log
+logs/
+log/
+
+# === OS GENERATED FILES ===
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+ehthumbs.db
+Thumbs.db
+Thumbs.db:encryptable
+desktop.ini
+
+# Linux
+*~
+
+# === EDITOR/IDE FILES ===
+.idea/
+.vscode/
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# === BUILD ARTIFACTS ===
+dist/
+build/
+target/
+
+# === TEMPORARY FILES ===
+*.tmp
+*.temp
+temp/
+tmp/
+
+# === BACKUP FILES ===
+*.backup
+*.bak
+*.orig
+
+# === CERTIFICATES AND KEYS ===
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+
+# === MISC ===
+# Caddy certificates (if auto-generated)
+.caddy/
+
+# PM2 logs and configs
+.pm2/
+
+# Runtime files
+*.pid
+*.seed
+*.pid.lock
+
+# Local configuration files
+config.local.*
+local.config.*
+
+# Test files
+test-output/
+test-results/
+
+# Documentation build
+docs/_build/
+docs/.doctrees/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
